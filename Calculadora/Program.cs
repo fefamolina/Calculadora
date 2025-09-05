@@ -16,7 +16,7 @@ namespace Calculadora
 
             Calculadora calculadora = new Calculadora();
 
-            // // Cria uma pilha para armazenar os resultados 
+            // Cria uma pilha para armazenar os resultados 
             Stack<decimal> pilhaResultados = new Stack<decimal>();
 
 
@@ -26,7 +26,7 @@ namespace Calculadora
                 calculadora.calcular(operacao);
                 Console.WriteLine("{0} {1} {2} = {3}", operacao.valorA, operacao.operador, operacao.valorB, operacao.resultado);
 
-                // // Empilha o resultado na pilha
+                // Empilha o resultado na pilha
                 pilhaResultados.Push(operacao.resultado);
             }
 
@@ -46,4 +46,5 @@ namespace Calculadora
             Console.ReadKey();
         }
     }
+
 }
