@@ -16,7 +16,7 @@ namespace Calculadora
 
             Calculadora calculadora = new Calculadora();
 
-            // Cria uma pilha para armazenar os resultados 
+            //Cria uma pilha para armazenar os resultados 
             Stack<decimal> pilhaResultados = new Stack<decimal>();
 
 
@@ -48,3 +48,4 @@ namespace Calculadora
     }
 
 }
+
