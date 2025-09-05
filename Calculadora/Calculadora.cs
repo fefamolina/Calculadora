@@ -8,7 +8,7 @@ namespace Calculadora
         {
             switch(operacao.operador)
             {
-                case '+': operacao.resultado= soma(operacao);break;
+                case '+': operacao.resultado = soma(operacao);break;
                 case '-': operacao.resultado = subtracao(operacao);break;
                 case '*': operacao.resultado = multiplicacao(operacao);break;
                 case '/': operacao.resultado = divisao(operacao); break;
@@ -35,3 +35,4 @@ namespace Calculadora
 
     }
 }
+
